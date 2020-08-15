@@ -1,9 +1,11 @@
 import React, { FC } from 'react'
 import styled from '../Styled'
+import { LandingPage } from '../../../pages'
 
 // Component
 const App: FC = () => (
   <AppContainer>
+    <LandingPage />
   </AppContainer>
 )
 
